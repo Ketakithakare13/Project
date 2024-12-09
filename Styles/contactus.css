@@ -1,0 +1,19 @@
+/* .form{
+    border: 2px solid grey;
+    padding: 20px;
+    box-shadow: 2px 5px 5px grey;
+} */
+
+.card-custom {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 70%;
+    
+  }
+  
+  .map-responsive {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

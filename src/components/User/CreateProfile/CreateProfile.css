@@ -1,0 +1,329 @@
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .form-label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-radio-group {
+    margin: 10px 0;
+  }
+  
+  .form-radio-label {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-button:hover {
+    background-color: #e63939;
+  }
+
+  
+  /*About Me*/
+  /* Namespace Styles to the About Me Form */
+.about-me-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me-form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-form-container .description {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-form-container .form-label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-me-form-container .textarea-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .about-me-form-container .char-count {
+    text-align: right;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  /* Text Selection Group */
+  .about-me-form-container .text-selection-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .about-me-form-container .text-option {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .about-me-form-container .text-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .about-me-form-container .text-option.selected {
+    background-color: #ff4d4d;
+    color: white;
+    border-color: #ff4d4d;
+  }
+  
+  /* Save Button */
+  .about-me-form-container .save-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .about-me-form-container .save-button:hover {
+    background-color: #e63939;
+  }
+
+
+  /* EducationForm.css */
+
+.education-form-container {
+    margin-top: 20px;
+  }
+  
+  .education-form-container .card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-form-container .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .education-form-container .card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .education-form-container .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .education-form-container .form-control {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .education-form-container .form-control:focus {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+  }
+  
+  .education-form-container .btn-danger {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .education-form-container .btn-danger:hover {
+    background-color: #e63939;
+    border-color: #e63939;
+  }
+  
+  /* ContactDetailsForm.css */
+
+.contact-details-form-container {
+    margin-top: 20px;
+  }
+  
+  .contact-details-form-container .card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-details-form-container .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .contact-details-form-container .card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .contact-details-form-container .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-details-form-container .form-control {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .contact-details-form-container .form-control:focus {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+  }
+  
+  .contact-details-form-container .btn-danger {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .contact-details-form-container .btn-danger:hover {
+    background-color: #e63939;
+    border-color: #e63939;
+  }
+  
+  .contact-details-form-container .form-check {
+    margin-left: 20px;
+  }
+  
+
+/* CareerForm.css */
+
+/* Container and title styles */
+.career-form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  .career-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .career-form-container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  /* Label and input styles */
+  .career-form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .career-form-container input[type="text"],
+  .career-form-container textarea,
+  .career-form-container select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .career-form-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .career-form-container button:hover {
+    background-color: #e63939;
+  }
+  
